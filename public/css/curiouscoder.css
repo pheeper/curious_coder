@@ -1,0 +1,46 @@
+/* 
+ * Custom CSS
+ *
+ */
+
+
+/* SIDEBAR */
+.category-list {
+    padding-left: 1em;
+    list-style: none;
+}
+/* Sidebar nav */
+.sidebar-nav-sub-item {
+    display: block;
+    line-height: 1.75;
+    padding-left: 1em;
+}
+a.sidebar-nav-sub-item:hover,
+a.sidebar-nav-sub-item:focus {
+    text-decoration: underline;
+}
+.sidebar-nav-sub-item.active {
+    font-weight: bold;
+}
+
+
+/* POSTS */
+.category-name {
+    display: block;
+    margin-top: -.5rem;
+    margin-bottom: .5rem;
+    color: #008000;
+    font-weight: bold;
+}
+
+/* Splitter 
+border-bottom: 1px solid #424242;
+border-top: 1px solid #212121;
+*/
+.splitter {
+    height: 1px;
+    width: 100%;
+    margin: 5px 0;
+    border-bottom: 1px solid #999999;
+    border-top: 1px solid #ffffff;
+}

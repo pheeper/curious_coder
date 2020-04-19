@@ -1,0 +1,39 @@
+<div class="sidebar">
+  <!-- BEGIN SITE NAME AND IMAGE -->
+  <div class="sidebar-about">
+    <img src="{{ site.baseurl }}public/images/curious-coder-logo.jpg" />
+    <h1 style="text-align:center">
+      <a href="{{ site.baseurl }}">
+        {{ site.title }}
+      </a>
+    </h1>
+    <p class="lead">{{ site.description }}</p>
+  </div>
+  <!-- END SITE NAME AND IMAGE -->
+
+  <!-- <div class="spliter"></div> -->
+
+  <!-- BEING NAVIGATION -->
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+
+    <!-- POSTS -->
+    <span class="sidebar-nav-item" style="color:#fff">Posts</span>
+    <!-- <ul class="category-list"> -->
+    <a class="sidebar-nav-sub-item" href="{{ site.baseurl }}cyber-security/">Cyber Security</a>
+    <a class="sidebar-nav-sub-item" href="{{ site.baseurl }}data-analysis/">Data Analysis</a>
+    <a class="sidebar-nav-sub-item" href="{{ site.baseurl }}miscellaneous/">Miscellaneous</a>
+    <!-- </ul> -->
+    
+    <!-- STATIC LINKS -->
+    <a class="sidebar-nav-item" href="{{ site.baseurl }}about/">About</a>
+    <!-- <a class="sidebar-nav-item" href="https://github.com/pheeper?tab=repositories">GitHub projects</a> -->
+  </nav>
+  <!-- END NAVIGATION -->
+
+  <!--- BEGIN FOOTER -->
+  <div class="container sidebar-sticky">
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+  <!--- END FOOTER -->
+</div>

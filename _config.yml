@@ -1,0 +1,28 @@
+# Dependencies
+plugins:
+  - jekyll-paginate
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            Curious Coder
+tagline:          ''
+description:      ''
+url:              "https://curiouscoder.net"
+baseurl:          /
+
+author:
+  name:           "pheeper"
+  url:            "https://curiouscoder.net"
+
+paginate:         5
+
+exclude:          [README.md]
+
+# Custom vars
+github:
+  repo:           "https://github.com/pheeper/curious_coder"
